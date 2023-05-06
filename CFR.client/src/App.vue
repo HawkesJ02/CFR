@@ -5,9 +5,6 @@
   <main class="bg-black">
     <router-view />
   </main>
-  <!-- <footer class="bg-dark text-light">
-    Made with 💖 by CodeWorks
-  </footer> -->
 </template>
 
 <script>
@@ -39,6 +36,7 @@ footer {
 }
 
 .bg-black {
-  background-color: black;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(41, 144, 68, 1) 50%, rgba(29, 63, 38, 1) 100%);
 }
 </style>

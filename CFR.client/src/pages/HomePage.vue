@@ -1,4 +1,4 @@
-<template>
+<template class="">
   <div class="container">
     <div class="row">
       <RouterLink :to="{ name: 'About' }" class="btn btn-primary">
@@ -46,5 +46,10 @@ export default {
       object-position: center;
     }
   }
+}
+
+.back {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(41, 144, 68, 1) 50%, rgba(29, 63, 38, 1) 100%);
 }
 </style>
