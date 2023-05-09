@@ -17,6 +17,7 @@
         <img src="https://cdn.discordapp.com/attachments/1097757077029539850/1102856277501165578/CFR_Simple_Logo.png"
           alt="CFR logo" class="CFRLogoMain">
       </div>
+      <div>WUH</div>
       <div class="col-2">
         <RouterLink :to="{ name: 'Gallery' }">
           <div class="button btn btn-primary">Gallery</div>
