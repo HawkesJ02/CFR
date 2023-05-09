@@ -1,18 +1,34 @@
 <template class="">
-  <div class="container">
-    <div class="row">
-      <RouterLink :to="{ name: 'About' }" class="btn btn-primary">
-        <div class="button">About</div>
-      </RouterLink>
-      <RouterLink :to="{ name: 'Members' }">
-        <div class="button btn btn-primary">Members</div>
-      </RouterLink>
-      <RouterLink :to="{ name: 'Gallery' }">
-        <div class="button btn btn-primary">Gallery</div>
-      </RouterLink>
-      <RouterLink :to="{ name: 'Account' }" class="btn btn-primary">
-        <div class="button">Account</div>
-      </RouterLink>
+  <div class="container-fluid mt-5">
+    <div class="row text-center justify-content-center">
+      <div class="col-2">
+        <RouterLink :to="{ name: 'About' }" class="">
+          <div class="button btn btn-primary">About</div>
+        </RouterLink>
+      </div>
+    </div>
+    <div class="row justify-content-center align-items-center text-center">
+      <div class="col-2">
+        <RouterLink :to="{ name: 'Members' }">
+          <div class="button btn btn-primary">Members</div>
+        </RouterLink>
+      </div>
+      <div class="col-6 justify-content-center d-flex">
+        <img src="https://cdn.discordapp.com/attachments/1097757077029539850/1102856277501165578/CFR_Simple_Logo.png"
+          alt="CFR logo" class="CFRLogoMain">
+      </div>
+      <div class="col-2">
+        <RouterLink :to="{ name: 'Gallery' }">
+          <div class="button btn btn-primary">Gallery</div>
+        </RouterLink>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-2 text-center">
+        <RouterLink :to="{ name: 'Account' }" class="btn btn-primary">
+          <div class="button">Account</div>
+        </RouterLink>
+      </div>
     </div>
   </div>
 </template>
@@ -48,8 +64,8 @@ export default {
   }
 }
 
-.back {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(41, 144, 68, 1) 50%, rgba(29, 63, 38, 1) 100%);
+.CFRLogoMain {
+  max-height: 50vh;
+  max-width: 50vw;
 }
 </style>
