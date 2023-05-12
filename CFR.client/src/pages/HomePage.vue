@@ -33,6 +33,7 @@
     </div>
   </div>
 </template>
+<!-- TODO re-write the homepage to merge about into it  -->
 
 <script>
 import { RouterLink } from "vue-router";
