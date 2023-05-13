@@ -35,8 +35,12 @@ footer {
   height: 32px;
 }
 
+// .background {
+//   background: rgb(12, 66, 26);
+//   background: linear-gradient(90deg, rgba(12, 66, 26, 1) 0%, rgba(41, 144, 68, 1) 100%);
+// }
+
 .background {
-  background: rgb(12, 66, 26);
-  background: linear-gradient(90deg, rgba(12, 66, 26, 1) 0%, rgba(41, 144, 68, 1) 100%);
+  background-color: #000000;
 }
 </style>
