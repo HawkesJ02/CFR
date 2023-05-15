@@ -10,27 +10,33 @@
         <h3><i>In Blood We Trust.</i></h3>
       </div>
     </div>
-    <div id="slideshow">
-      <div class="slide-wrapper">
+  </div>
 
-        <!-- Define each of the slides
-         and write the content -->
-
-        <div class="slide">
-          <img
-            src="https://media.discordapp.net/attachments/1097757077029539850/1106970069151535235/MedicSwarm.png?width=911&height=512"
-            class="slideimg" alt="">
-        </div>
-        <div class="slide">
-          <img
-            src="https://media.discordapp.net/attachments/1059340116168015882/1094828091265781820/image.png?width=706&height=513"
-            class="slideimg" alt="">
-        </div>
-        <div class="slide">
-          <img src="https://cdn.discordapp.com/attachments/1059340116168015882/1105446026309029948/20230508182042_1.jpg"
-            class="slideimg" alt="">
-        </div>
-        <div class="slide">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div id="slideshow">
+          <div class="slide-wrapper">
+            <div class="slide">
+              <img src="https://cdn.discordapp.com/attachments/1059340116168015882/1060997031813992588/MarbanSquad3.png"
+                class="slideimg img-fluid" alt="">
+            </div>
+            <div class="slide">
+              <img
+                src="https://cdn.discordapp.com/attachments/1059340116168015882/1062152859153612871/20230110003158_1.jpg"
+                class="slideimg img-fluid" alt="">
+            </div>
+            <div class="slide">
+              <img
+                src="https://cdn.discordapp.com/attachments/1059340116168015882/1105446026309029948/20230508182042_1.jpg"
+                class="slideimg img-fluid" alt="">
+            </div>
+            <div class="slide">
+              <img
+                src="https://cdn.discordapp.com/attachments/1059340116168015882/1063516980163907686/20230113185601_1.jpg"
+                alt="" class="slideimg img-fluid">
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -91,17 +97,11 @@ export default {
   background-attachment: fixed;
 }
 
-body {
-  font-family: Helvetica, sans-serif;
-  padding: 5%;
-  text-align: center;
-  font-size: 50;
-}
 
 /* Styling the area of the slides */
 #slideshow {
   overflow: hidden;
-  height: 1080px;
+  height: 60vh;
   width: 1080px;
   margin: 0 auto;
 }
@@ -115,7 +115,7 @@ with a fixed width and height */
 }
 
 .slideimg {
-  max-height: 1080px;
+  min-height: 10vh;
 }
 
 /* Add animation to the slides */
@@ -127,7 +127,7 @@ basis of number of slides */
 
   /* Specify the animation with the
 duration and speed */
-  animation: slide 15s ease infinite;
+  animation: slide 45s ease infinite;
 }
 
 /* Define the animation
