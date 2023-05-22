@@ -6,12 +6,7 @@
         <h2><b>In Blood We Trust!</b></h2>
       </div>
       <div class="col-8">
-        <p>Founded on the 1st of January 2023 as a natural successor to the Colonial Medical Battalion, our regiment
-          retains its focus on medical and support roles, while attempting to build a friendly and engaging community with
-          the help of its experienced members and commanders. We consider ourselves to be a casual regiment - no playtime
-          quotas, no strict command structure, no enforced medical duties. While all members are expected to attend
-          medical duties to an extent, we mix it up with infantry, building, tanks and artillery from time to time,
-          although these do not occur on a regular basis.
+        <p>
         </p>
       </div>
       <div class="col-4">[INSERT IMAGE HERE]</div>
