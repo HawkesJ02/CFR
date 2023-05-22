@@ -41,6 +41,9 @@ footer {
 // }
 
 .background {
-  background-color: #000000;
+  background: url(https://media.discordapp.net/attachments/740165104686858252/1066491136891437056/IndustryOfWarPromo_NoLogo.jpg?width=1156&height=650);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 </style>

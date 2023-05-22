@@ -1,5 +1,5 @@
 <template class="">
-  <div class="container-fluid section1">
+  <div class="container-fluid">
     <div class="row justify-content-around align-items-center">
       <div class="col-12 col-md-6 text-end">
         <img src="https://cdn.discordapp.com/attachments/1097757077029539850/1102856277501165578/CFR_Simple_Logo.png"
@@ -12,9 +12,9 @@
     </div>
   </div>
 
-  <div class="container">
+  <div class="container-fluid my-3 bg-black p-3">
     <div class="row justify-content-center">
-      <div class="col-12">
+      <div class="col-7">
         <div id="slideshow">
           <div class="slide-wrapper">
             <div class="slide">
@@ -38,6 +38,19 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="col-md-5 col-12">
+
+        <h1 class="bg-light rounded m-3 p-3 text-center"><i><b>What is CFR?</b></i></h1>
+        <p class="bg-light rounded p-3 fs-5"><i>Founded on the 1st of January 2023 as a natural successor to the Colonial
+            Medical
+            Battalion, our regiment
+            retains its focus on medical and support roles, while attempting to build a friendly and engaging community
+            with
+            the help of its experienced members and commanders. We consider ourselves to be a casual regiment: no playtime
+            quotas, no strict command structure, no enforced medical duties. While all members are expected to attend
+            medical duties to an extent, we mix it up with infantry, building, tanks and artillery from time to time,
+            although these do not occur on a regular basis.</i><br>- Amp </p>
       </div>
     </div>
   </div>
@@ -66,8 +79,8 @@ export default {
     width: 50vw;
 
     >img {
-      height: 200px;
-      max-width: 200px;
+      height: 10vh;
+      max-width: 50vw;
       width: 100%;
       object-fit: contain;
       object-position: center;
@@ -90,19 +103,17 @@ export default {
   font-size: 5em;
 }
 
-.section1 {
-  background: url(https://media.discordapp.net/attachments/740165104686858252/1066491136891437056/IndustryOfWarPromo_NoLogo.jpg?width=1156&height=650);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+.bg-lightgrey {
+  background-color: #999999;
 }
+
 
 
 /* Styling the area of the slides */
 #slideshow {
   overflow: hidden;
-  height: 60vh;
-  width: 1080px;
+  height: 50vh;
+  width: 50vw;
   margin: 0 auto;
 }
 
@@ -110,8 +121,8 @@ export default {
 with a fixed width and height */
 .slide {
   float: left;
-  height: 1080px;
-  width: 1080px;
+  height: 50vw;
+  width: 50vw;
 }
 
 .slideimg {
@@ -123,7 +134,7 @@ with a fixed width and height */
 
   /* Calculate the total width on the
 basis of number of slides */
-  width: calc(1080px * 4);
+  width: calc(50vw * 4);
 
   /* Specify the animation with the
 duration and speed */
@@ -141,15 +152,15 @@ each of the slides */
   }
 
   40% {
-    margin-left: calc(-1080px * 1);
+    margin-left: calc(-50vw * 1);
   }
 
   60% {
-    margin-left: calc(-1080px * 2);
+    margin-left: calc(-50vw * 2);
   }
 
   80% {
-    margin-left: calc(-1080px * 3);
+    margin-left: calc(-50vw * 3);
   }
 }
 </style>
